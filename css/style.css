@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,600italic,400italic,700);
+
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+body {
+  padding: 70px !important;
+  background-color: #FAFAFA;
+  font-family: Open Sans, sans-serif;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #fff;
+}
+
+.navbar {
+  border: none !important;
+}
+
+nav ul {
+  float: right !important;
+  margin: 0px;
+  position: relative;
+  padding: 0px;
+  pointer-events: all;
+  cursor: pointer;
+}
+
+nav li {
+  float: left;
+  padding: 0 16px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: lato, sans-serif;
+  font-weight: 900;
+}
+
+#top h3 {
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+h1 {
+  font-family: lato, sans-serif;
+  font-weight: 600;
+}
+
+.special {
+  color: #D24D57;
+  text-decoration: underline;
+  font-weight: 200;
+}
